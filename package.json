@@ -1,0 +1,23 @@
+{
+  "name": "gideon",
+  "version": "1.0.0",
+  "description": "quieter alternative to the GitHub integration for the Hack Club Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporeball/gideon.git"
+  },
+  "author": "sporeball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sporeball/gideon/issues"
+  },
+  "homepage": "https://github.com/sporeball/gideon#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.4.0",
+    "dotenv": "^10.0.0"
+  }
+}
