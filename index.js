@@ -40,7 +40,7 @@ app.command('/gideon-link', async ({ command, ack }) => {
     await app.client.chat.postEphemeral({
       channel: command.channel_id,
       user: command.user_id,
-      text: `success! my posts in this channel are now linked to your timezone (*${info.tz}*).`
+      text: `success! my posts in this channel will now be linked to your timezone (*${info.user.tz}*).`
     });
   } catch (err) {
     console.error(err);
